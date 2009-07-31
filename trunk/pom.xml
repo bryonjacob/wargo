@@ -86,20 +86,14 @@
         <repository>
             <id>wargo-repo</id>
             <name>GoogleCode WarGo Repository</name>
-            <!--
-                        <url>svn:https://wargo.googlecode.com/svn/repo</url>
-            -->
-            <url>svn:file:///tmp/wargo-repo</url>
+            <url>svn:https://wargo.googlecode.com/svn/repo</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
 
         <snapshotRepository>
             <id>wargo-repo</id>
             <name>GoogleCode WarGo Repository</name>
-            <!--
-                        <url>svn:https://wargo.googlecode.com/svn/repo</url>
-            -->
-            <url>svn:file:///tmp/wargo-repo</url>
+            <url>svn:https://wargo.googlecode.com/svn/repo</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
 
