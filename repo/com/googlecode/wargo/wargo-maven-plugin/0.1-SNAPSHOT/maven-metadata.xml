@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.googlecode.wargo</groupId>
+  <artifactId>wargo-maven-plugin</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20090731193307</lastUpdated>
+  </versioning>
+</metadata>
