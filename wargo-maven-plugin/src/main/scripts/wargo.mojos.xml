@@ -1,0 +1,62 @@
+<pluginMetadata>
+    <mojos>
+        <mojo>
+            <goal>prepare</goal>
+            <call>prepare</call>
+            <description>Prepares a war for self-execution with WarGo</description>
+
+            <phase>package</phase>
+
+            <requiresProject>true</requiresProject>
+
+            <parameters>
+
+                <parameter>
+                    <name>war</name>
+                    <property>war</property>
+                    <required>true</required>
+                    <type>java.io.File</type>
+                    <defaultValue>${project.build.directory}/${project.build.finalName}.war</defaultValue>
+                    <description>The war file to prepare</description>
+                </parameter>
+
+                <parameter>
+                    <name>out</name>
+                    <property>out</property>
+                    <required>true</required>
+                    <type>java.io.File</type>
+                    <defaultValue>${project.build.directory}/${project.build.finalName}.war</defaultValue>
+                    <description>The output war file to write</description>
+                </parameter>
+
+                <parameter>
+                    <name>verbose</name>
+                    <property>verbose</property>
+                    <required>true</required>
+                    <type>java.lang.Boolean</type>
+                    <defaultValue>true</defaultValue>
+                    <description>Write verbose output on the WarGo processing</description>
+                </parameter>
+
+                <parameter>
+                    <name>debug</name>
+                    <property>debug</property>
+                    <required>true</required>
+                    <type>java.lang.Boolean</type>
+                    <defaultValue>false</defaultValue>
+                    <description>Run WarGo in debug mode</description>
+                </parameter>
+
+                <parameter>
+                    <name>provider</name>
+                    <property>provider</property>
+                    <required>true</required>
+                    <type>java.lang.String</type>
+                    <defaultValue>jetty</defaultValue>
+                    <description>The WarGo provider to use</description>
+                </parameter>
+
+            </parameters>
+        </mojo>
+    </mojos>
+</pluginMetadata>

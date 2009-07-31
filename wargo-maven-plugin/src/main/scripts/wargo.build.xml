@@ -1,0 +1,14 @@
+<project>
+
+    <target name="prepare">
+        <taskdef resource="com/googlecode/wargo/wargo-ant.properties"/>
+
+        <wargo war="${war}"
+               out="${out}"
+               provider="${provider}"
+               verbose="${verbose}"
+               debug="${debug}"/>
+
+    </target>
+    
+</project>
